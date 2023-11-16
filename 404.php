@@ -1,3 +1,9 @@
+<?php
+
+include('main-panels/navbar.php');
+
+?>
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -97,6 +103,12 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
-</body>
 
+    <?php
+
+include('main-panels/footer.php');
+
+?>
+
+</body>
 </html>
