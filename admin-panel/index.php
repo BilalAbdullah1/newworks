@@ -81,16 +81,9 @@
                         <span>Admin</span>
                     </div>
                 </div>
-                <div class="navbar-nav w-100">
-                    <a href="index.php" class="nav-item nav-link active"><i
-                            class="fa fa-tachometer-alt me-2"></i>Dashboard</a>
-                            
-                            <div class="add mt-3">
-                            <a href="addcategory.php" class="nav-item nav-link active"><i
-                            class="fa fa-tachometer-alt me-2"></i>Catagory</a>
-                            </div>                    
-                    
-                            <!-- <div class="nav-item dropdown">
+                <div class="navbar-nav w-120">
+                                    
+                            <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i
                                 class="fa fa-laptop me-2"></i>Elements</a>
                         <div class="dropdown-menu bg-transparent border-0">
@@ -99,10 +92,10 @@
                             <a href="element.php" class="dropdown-item">Other Elements</a>
                         </div>
                     </div>
-                    <a href="widget.php" class="nav-item nav-link"><i class="fa fa-th me-2"></i>Widgets</a>
-                    <a href="form.php" class="nav-item nav-link"><i class="fa fa-keyboard me-2"></i>Forms</a>
+                    <a href="index.php" class="nav-item nav-link"><i class="fa fa-th me-2"></i>Dashboard</a>
+                    <a href="addcategory.php" class="nav-item nav-link"><i class="fa fa-keyboard me-2"></i>Catagory</a>
                     <a href="table.php" class="nav-item nav-link"><i class="fa fa-table me-2"></i>Tables</a>
-                    <a href="chart.php" class="nav-item nav-link"><i class="fa fa-chart-bar me-2"></i>Charts</a> -->
+                    <a href="chart.php" class="nav-item nav-link"><i class="fa fa-chart-bar me-2"></i>Charts</a>
                   
                 </div>
             </nav>

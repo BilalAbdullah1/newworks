@@ -1,3 +1,21 @@
+<?php 
+
+include('dbconnect.php');
+
+
+if(isset($_POST['AddCategory'])){
+    $categoryname = $_POST['categoryname'];
+    $query = "INSERT INTO `catagorytb` (`catname`) VALUES ('$categoryname')";
+    $result = mysqli_query($connection, $query);
+    if($result) {
+        echo "<script> alert('Category Add')</script>";
+     }else {
+        echo "<script> alert('Error')</script>";
+     };
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -36,20 +54,28 @@
                 <!-- <div class="card-heading"></div> -->
                 <div class="card-body">
                     <h2 class="title">Add Catagory</h2>
-                    <form method="POST">
+                    <form action="<?php echo $_SERVER["PHP_SELF"]; ?>" method="POST">
                         <div class="input-group">
-                            <input class="input--style-1" type="text" placeholder="Catagory Name" name="title">
+                            <input class="input--style-1" type="text" placeholder="Catagory Name" name="categoryname">
                         </div>
 
                         <div class="p-t-20">
-                            <button class="btn btn--radius btn--green" type="submit">Add Catagory</button>
+                            <button class="btn btn--radius btn--green" type="submit" name= "AddCategory">Add Catagory</button>
                         </div>
                     </form>
+            
                 </div>
             </div>
         </div>
     </div>
 
+
+
+
+    
+
+
+    
     <!-- Jquery JS-->
     <script src="vendor/jquery/jquery.min.js"></script>
     <!-- Vendor JS-->
@@ -60,7 +86,7 @@
     <!-- Main JS-->
     <script src="js/global.js"></script>
 
-</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</body>
 
 </html>
 <!-- end document-->
