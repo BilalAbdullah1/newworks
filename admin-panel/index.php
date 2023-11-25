@@ -1,3 +1,10 @@
+
+<?php
+
+
+
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -31,7 +38,7 @@
     <!-- Font eND -->
 
 
-    <link rel="stylesheet" href="css-1.css">
+    <link rel="stylesheet" href="css/admincss.css">
 
     <!-- Libraries Stylesheet -->
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
@@ -77,7 +84,13 @@
                 <div class="navbar-nav w-100">
                     <a href="index.php" class="nav-item nav-link active"><i
                             class="fa fa-tachometer-alt me-2"></i>Dashboard</a>
-                    <div class="nav-item dropdown">
+                            
+                            <div class="add mt-3">
+                            <a href="addcategory.php" class="nav-item nav-link active"><i
+                            class="fa fa-tachometer-alt me-2"></i>Catagory</a>
+                            </div>                    
+                    
+                            <!-- <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i
                                 class="fa fa-laptop me-2"></i>Elements</a>
                         <div class="dropdown-menu bg-transparent border-0">
@@ -89,17 +102,8 @@
                     <a href="widget.php" class="nav-item nav-link"><i class="fa fa-th me-2"></i>Widgets</a>
                     <a href="form.php" class="nav-item nav-link"><i class="fa fa-keyboard me-2"></i>Forms</a>
                     <a href="table.php" class="nav-item nav-link"><i class="fa fa-table me-2"></i>Tables</a>
-                    <a href="chart.php" class="nav-item nav-link"><i class="fa fa-chart-bar me-2"></i>Charts</a>
-                    <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i
-                                class="far fa-file-alt me-2"></i>Pages</a>
-                        <div class="dropdown-menu bg-transparent border-0">
-                            <a href="signin.php" class="dropdown-item">Sign In</a>
-                            <a href="signup.php" class="dropdown-item">Sign Up</a>
-                            <a href="404.php" class="dropdown-item">404 Error</a>
-                            <a href="blank.php" class="dropdown-item">Blank Page</a>
-                        </div>
-                    </div>
+                    <a href="chart.php" class="nav-item nav-link"><i class="fa fa-chart-bar me-2"></i>Charts</a> -->
+                  
                 </div>
             </nav>
         </div>
@@ -296,33 +300,6 @@
                     </div>
                 </div>
             </div>
-
-            <style>
-                #o2016:checked~.pie {
-                    --p: 20
-                }
-
-                #o2017:checked~.pie {
-                    --p: 26
-                }
-
-                #o2018:checked~.pie {
-                    --p: 29
-                }
-            </style>
-            <div class="wrap">
-                <input type="radio" name="o" id="o2016" checked="checked" />
-                <label for="o2016">2016</label>
-                <input type="radio" name="o" id="o2017" />
-                <label for="o2017">2017</label>
-                <input type="radio" name="o" id="o2018" />
-                <label for="o2018">2018</label>
-                <div class="pie" aria-label="Value as pie chart: 20 for 2016, 26 for 2017, 29 for 2018."
-                    role="graphics-document group"></div>
-            </div>
-            
-        </div>
-
 
 
     </div>
