@@ -93,7 +93,7 @@
                         </div>
                     </div>
                     <a href="index.php" class="nav-item nav-link"><i class="fa fa-th me-2"></i>Dashboard</a>
-                    <a href="addcategory.php" class="nav-item nav-link"><i class="fa fa-keyboard me-2"></i>Catagory</a>
+                    <a href="/newwork/admin-panel/AddCategory/employee.php" class="nav-item nav-link"><i class="fa fa-keyboard me-2"></i>Catagory</a>
                     <a href="table.php" class="nav-item nav-link"><i class="fa fa-table me-2"></i>Tables</a>
                     <a href="chart.php" class="nav-item nav-link"><i class="fa fa-chart-bar me-2"></i>Charts</a>
                   
